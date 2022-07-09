@@ -8,3 +8,8 @@
 .nav-bar li {
   color: rgb(128, 128, 209);
 }
+
+iframe {
+  width: 420px;
+  height: 315px;
+}
