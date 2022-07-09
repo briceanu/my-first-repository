@@ -1,15 +1,24 @@
-.logo {
-  height: 450px;
-  width: 650px;
+* {
+  --light-green: rgba(78, 182, 31, 0.582);
+  text-align: center;
+}
+.logo-img {
+  height: 300px;
+  width: 450px;
 }
 .nav-bar a {
   color: rgb(128, 128, 209);
+  text-decoration: none;
+  padding: 100px 60px;
 }
 .nav-bar li {
   color: rgb(128, 128, 209);
+  display: inline;
+  background: yellowgreen;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px var(--light-green);
+  padding: 10px;
 }
-
-iframe {
-  width: 420px;
-  height: 315px;
+.what-we-do {
+  text-align: center;
 }
